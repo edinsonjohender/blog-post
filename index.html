@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Meza</title>
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+     <!-- GOOGLE FONTS -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header>
+        
+    <div class="container">
+
+        <nav class="navbar">
+  
+          <a href="#">
+            <img src="./assets/images/logo.svg" alt="Devblog's logo" width="150" height="40" class="logo-light">
+          </a>
+
+          <div class="flex-wrapper">
+  
+            <ul class="desktop-nav">
+  
+              <li>
+                <a href="#hero" class="nav-link">HERO</a>
+              </li>
+  
+              <li>
+                <a href="#last-newst" class="nav-link">NEWS</a>
+              </li>
+  
+              <li>
+                <a href="#articles" class="nav-link">ARTICLES</a>
+              </li>
+  
+            </ul>
+            
+  
+          </div>
+          
+        </nav>
+  
+      </div>
+
+    </header>
+
+    <main>
+
+      <!-- HERO -->
+
+      <section id="hero" class="hero">
+          <div class="container">
+              <img src="./assets/images/logo-positive.svg" alt="Devblog's logo" width="250" height="250">
+              <h1>BLACK MESA</h1>
+              <h3>RESEARCH FACILITY</h3>
+              <h2>“WORKING TO MAKE A BETTER TOMORROW FOR ALL MANKIND”</h2>
+              <button class="boton">MORE INFORMATION</button>
+
+              
+          </div>
+      </section>
+
+      <!-- LAST NEWS -->
+      <section id="last-newst" class="container">
+        <h2>LAST NEWS</h2>
+        <div class="ed-boder"></div>
+        <div id="news" > </div>
+      </section>
+        
+      <!-- ALL ARTICLES -->
+      <section id="articles" class="container">
+        <h2>MORE ARTICLES</h2>
+        <div class="ed-boder"></div>
+          <i class="fa fa-search"></i>
+          <input type="text" placeholder="Search articles..." class="ed-filter">
+        </div>
+
+
+        <table class="table">
+            <thead>
+                <th>NAME</th>
+                <th>DESCRIPTION</th>
+                <th>DATE</th>
+            </thead>
+            <tbody id="tableEd"></tbody>
+        </table>
+            
+        <div class="pagination">
+          <div>
+            <span  id="bnt_prev"> < </span>
+            <span  id="page_prev"></span>
+            <span  id="page"></span>
+            <span  id="page_next"></span>
+            <span  id="bnt_next"> > </span>
+          </div>
+        </div>
+      </section>
+      
+      
+    <footer> by Edinson Peña</footer>
+    </main>
+    <script src="./assets/js/script.js"></script>
+    
+</body>
+</html>
